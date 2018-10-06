@@ -2,28 +2,28 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="idLib">
-      <UniqueIdentifier>{b146f19b-572f-4056-8e5c-b9dbbcf1e831}</UniqueIdentifier>
+      <UniqueIdentifier>{48f8ad18-d5ab-4b90-a3b8-49424daa0da2}</UniqueIdentifier>
     </Filter>
     <Filter Include="idLib\BV">
-      <UniqueIdentifier>{756849d4-d0c6-425e-b236-9d8a387443ca}</UniqueIdentifier>
+      <UniqueIdentifier>{4a8d0c78-758f-4de9-8f4a-e6787db2d6e2}</UniqueIdentifier>
     </Filter>
     <Filter Include="idLib\Containers">
-      <UniqueIdentifier>{29ac9e75-b798-449f-9758-614ab975f58e}</UniqueIdentifier>
+      <UniqueIdentifier>{6a0d6fb9-f806-4814-b574-e3b6bfead597}</UniqueIdentifier>
     </Filter>
     <Filter Include="idLib\Geometry">
-      <UniqueIdentifier>{f0c716c3-77b9-44e9-bbda-32da1f0a06bc}</UniqueIdentifier>
+      <UniqueIdentifier>{fa74d762-b7e0-4ec4-91e8-5a0b15e2f252}</UniqueIdentifier>
     </Filter>
     <Filter Include="idLib\Math">
-      <UniqueIdentifier>{a167693c-df68-41e2-8372-76c048864206}</UniqueIdentifier>
+      <UniqueIdentifier>{653c6122-295b-47ca-b4e9-8f85caa43c68}</UniqueIdentifier>
     </Filter>
     <Filter Include="idLib\Hashing">
-      <UniqueIdentifier>{a78b1571-99ec-42df-93a0-09ee811fc27e}</UniqueIdentifier>
+      <UniqueIdentifier>{c4c5bcc7-4e48-4c7e-8dc3-d9aeb9ba78f8}</UniqueIdentifier>
     </Filter>
     <Filter Include="idLib\threads">
-      <UniqueIdentifier>{d3f25954-c934-434f-ac3b-aa321a7b858b}</UniqueIdentifier>
+      <UniqueIdentifier>{a3bdccf0-2eb7-44aa-9b57-cb539f764961}</UniqueIdentifier>
     </Filter>
     <Filter Include="idLib\Algorithms">
-      <UniqueIdentifier>{c75237b4-bd24-4d93-9413-ea37ca887e37}</UniqueIdentifier>
+      <UniqueIdentifier>{fe38d7f9-e0eb-443f-a874-8f5c700b82a7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -460,8 +460,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuildStep Include="idlib\precompiled.h">
+    <CustomBuild Include="idlib\precompiled.h">
       <Filter>idLib</Filter>
-    </CustomBuildStep>
+    </CustomBuild>
   </ItemGroup>
 </Project>

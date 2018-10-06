@@ -26,7 +26,7 @@ windowDef Desktop
 	float	"weapswitch"	0
 	float	"teamstrogg" 	0
 	float	"hidden"	0
-	float	"deathCount"	0
+	float	"deathCount"	1//mod change, was 0
 	
 	definefloat	"showGunInfo"	1
 	definefloat	"switchLeft"	(640 - (("gui::weaponcount" * 30) - 2)) / 2
@@ -47,7 +47,7 @@ windowDef Desktop
 	}
 	
 	onNamedEvent hideHud {
-		set "desktop::hidden" "0" ;//mod change, was 1
+		set "desktop::hidden" "1" ;
 		set "p_ammo::visible" "0" ;
 		set "p_armor::visible" "0" ;
 		set "p_health::visible" "0" ;
@@ -56,7 +56,7 @@ windowDef Desktop
 	}
 	
 	onNamedEvent showHud {
-		set "desktop::hidden" "0" ;//mod change, was 0
+		set "desktop::hidden" "0" ;
 		set "p_ammo::visible" "1" ;
 		set "p_armor::visible" "1" ;
 		set "p_health::visible" "1" ;
@@ -309,7 +309,7 @@ windowDef Desktop
 	}
 	
 	onNamedEvent playerHit {
-		resetTime "hit_indicator" "0";	
+		resetTime "hit_indicator" "1";//mod change was 0	
 	}
 	
 	onNamedEvent clearPowerups {
@@ -658,7 +658,7 @@ windowDef Desktop
 		windowDef ammo_amount
 		{
 			rect	44,429,49,26
-			visible	1
+			visible	0//mod change, was 1
 			forecolor	0.866,0.921,0.764,1
 			text	"gui::player_ammo"
 			textscale	0.5
@@ -2435,7 +2435,7 @@ windowDef Desktop
 		background	"gfx/guis/hud/directional_hit"
 		matcolor	1,.1,.1,.7
 		rotate		"gui::hitdir"
-		visible		0
+		visible		1//mod change, was 0
 		notime		1
 		
 		onTime 0 

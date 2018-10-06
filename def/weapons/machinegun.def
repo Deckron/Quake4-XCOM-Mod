@@ -87,7 +87,7 @@ entityDef weapon_machinegun
 	"joint_world_flash"			"muzzle_flash"
 
 	"inv_weapon"				"weapon_machinegun"
-	"inv_start_ammo_machinegun"		"1000"\\*MOD CHANGE HERE, ORIGINAL 40*//
+	"inv_start_ammo_machinegun"		"40"
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_machinegun.tga"
 	"inv_name"					"#str_107406"
@@ -101,7 +101,7 @@ entityDef weapon_machinegun
 	
 	"ammoType"					"ammo_machinegun"
 	"ammoRequired"				"1"
-	"clipSize"					"1000"\\*MOD CHANGE HERE, ORIGINAL 40*//
+	"clipSize"					"40"
 	"lowAmmo"					"10"
 	"gui"						"guis/weapons/machinegun_ammo.gui"
 	"gui2"						"guis/weapons/machinegun_inview_scope.gui"
@@ -119,7 +119,7 @@ entityDef weapon_machinegun
 	"ammoRegenTime"				"1000"
 
 	"recoilTime"				"145"
-	"recoilAngles"				"-40 0 0"\\*MOD HERE, ORIGINAL -1 0 0*//
+	"recoilAngles"				"-1 0 0"
 	
 	// Mapping of modifications to indexes
   	"def_mod1"					"wpmod_machinegun_ammo"
@@ -380,7 +380,7 @@ entityDef hitscan_zoomed_bullet
 entityDef damage_machinegun
 {
 	"inherit"					"damage_bullet"
-	"damage"					"4000"\\*MOD CHANGE HERE, ORIGINAL 15*//
+	"damage"					"15"
 	"damage_flesh"				"18"
 
 	"deathPush"					"100"

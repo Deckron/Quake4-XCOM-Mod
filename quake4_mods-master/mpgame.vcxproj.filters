@@ -2,43 +2,43 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Game">
-      <UniqueIdentifier>{807f5e38-b48e-4c20-a126-8f28bb3a642d}</UniqueIdentifier>
+      <UniqueIdentifier>{e8875c59-85f2-4769-9731-590196ce8aa8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\AI">
-      <UniqueIdentifier>{89b76ba1-fba6-48cd-9252-bb22937b8e99}</UniqueIdentifier>
+      <UniqueIdentifier>{cc6fe79f-c4f4-421b-a6a5-2bb5b5f3c58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Anim">
+      <UniqueIdentifier>{3d4c231f-b37e-4e99-bbd4-e39fc51aa8fe}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Client">
-      <UniqueIdentifier>{b9ac646e-38f0-4592-af60-534267ffa4cb}</UniqueIdentifier>
+      <UniqueIdentifier>{de63e277-1358-41e8-9d48-986d58ca1427}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\GameSys">
-      <UniqueIdentifier>{21152515-f591-46b7-834e-d90bc82f441d}</UniqueIdentifier>
+      <UniqueIdentifier>{a0696839-f535-42a5-965f-13f3e467eb72}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Physics">
-      <UniqueIdentifier>{e7452557-5eb0-4bed-97ea-1326ed768143}</UniqueIdentifier>
+      <UniqueIdentifier>{169cfbf1-34eb-4953-8076-b34fbaad2557}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Player">
-      <UniqueIdentifier>{154cf776-f73c-4fe8-a218-6cab55dc0d21}</UniqueIdentifier>
+      <UniqueIdentifier>{edceef8e-4f35-4cc9-b5cf-cf208fbd4444}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Script">
-      <UniqueIdentifier>{95e64497-7031-408f-92f2-6f41898cb5f7}</UniqueIdentifier>
+      <UniqueIdentifier>{2e165345-b1d4-44b8-ab69-03a7b99f9dbb}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Vehicle">
-      <UniqueIdentifier>{0933b429-8047-42c0-a374-c522640d31c4}</UniqueIdentifier>
+      <UniqueIdentifier>{2d4ee004-e0e1-4b40-a05a-ce6ef5e73402}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Weapon">
-      <UniqueIdentifier>{15009676-52a6-4224-a00e-56ffd1b41c30}</UniqueIdentifier>
+      <UniqueIdentifier>{f8ec9502-44b8-49fb-8afb-848ac2384160}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\MP">
-      <UniqueIdentifier>{4e0921c8-36ef-4372-808c-4e4f059d95a4}</UniqueIdentifier>
+      <UniqueIdentifier>{7dec2948-4177-46d9-a854-7885371877b2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\MP\Stats">
-      <UniqueIdentifier>{39fb3ba5-8de9-4cb1-8237-2246ad5bd3ed}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Game\MP\Anim">
-      <UniqueIdentifier>{965c3472-d86b-483d-8a84-35ffbff80b50}</UniqueIdentifier>
+      <UniqueIdentifier>{d12a6037-1bd6-4096-8c64-0c8f4a584595}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Resource">
-      <UniqueIdentifier>{1087052d-3f55-40fc-8d96-1c8288cd50ac}</UniqueIdentifier>
+      <UniqueIdentifier>{974fb174-c6e7-4368-8c59-b45878a99ada}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -291,6 +291,18 @@
     <ClCompile Include="mpgame\ai\VehicleAI.cpp">
       <Filter>Game\AI</Filter>
     </ClCompile>
+    <ClCompile Include="mpgame\anim\Anim.cpp">
+      <Filter>Game\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="mpgame\anim\Anim_Blend.cpp">
+      <Filter>Game\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="mpgame\anim\Anim_Import.cpp">
+      <Filter>Game\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="mpgame\anim\Anim_Testmodel.cpp">
+      <Filter>Game\Anim</Filter>
+    </ClCompile>
     <ClCompile Include="mpgame\client\ClientAFEntity.cpp">
       <Filter>Game\Client</Filter>
     </ClCompile>
@@ -507,18 +519,6 @@
     <ClCompile Include="mpgame\mp\stats\StatWindow.cpp">
       <Filter>Game\MP\Stats</Filter>
     </ClCompile>
-    <ClCompile Include="mpgame\anim\Anim.cpp">
-      <Filter>Game\MP\Anim</Filter>
-    </ClCompile>
-    <ClCompile Include="mpgame\anim\Anim_Blend.cpp">
-      <Filter>Game\MP\Anim</Filter>
-    </ClCompile>
-    <ClCompile Include="mpgame\anim\Anim_Import.cpp">
-      <Filter>Game\MP\Anim</Filter>
-    </ClCompile>
-    <ClCompile Include="mpgame\anim\Anim_Testmodel.cpp">
-      <Filter>Game\MP\Anim</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mpgame\Actor.h">
@@ -658,6 +658,12 @@
     </ClInclude>
     <ClInclude Include="mpgame\ai\VehicleAI.h">
       <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="mpgame\anim\Anim.h">
+      <Filter>Game\Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="mpgame\anim\Anim_Testmodel.h">
+      <Filter>Game\Anim</Filter>
     </ClInclude>
     <ClInclude Include="mpgame\client\ClientAFEntity.h">
       <Filter>Game\Client</Filter>
@@ -823,12 +829,6 @@
     </ClInclude>
     <ClInclude Include="mpgame\mp\stats\StatWindow.h">
       <Filter>Game\MP\Stats</Filter>
-    </ClInclude>
-    <ClInclude Include="mpgame\anim\Anim.h">
-      <Filter>Game\MP\Anim</Filter>
-    </ClInclude>
-    <ClInclude Include="mpgame\anim\Anim_Testmodel.h">
-      <Filter>Game\MP\Anim</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
