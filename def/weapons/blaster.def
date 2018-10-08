@@ -244,7 +244,7 @@ entityDef hitscan_blaster
 	
 	"def_damage"				"damage_blaster"
 		
-	"push"						"7500"//mod change
+	"push"						"7500"
 
 	"impact_gib"				"1"
 }
@@ -335,5 +335,5 @@ entityDef damage_blastersplash_charged
 	"damage"					"40"
 	"radius"					"500"//mod change was 50
 	"knockback"					"30"
-	"push"						"50000"//mod change
+	"push"						"50000"//mod change 2500
 }

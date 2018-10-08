@@ -101,7 +101,7 @@ entityDef weapon_machinegun
 	
 	"ammoType"					"ammo_machinegun"
 	"ammoRequired"				"1"
-	"clipSize"					"40"
+	"clipSize"					"32"//mod change, was 40
 	"lowAmmo"					"10"
 	"gui"						"guis/weapons/machinegun_ammo.gui"
 	"gui2"						"guis/weapons/machinegun_inview_scope.gui"
@@ -380,10 +380,10 @@ entityDef hitscan_zoomed_bullet
 entityDef damage_machinegun
 {
 	"inherit"					"damage_bullet"
-	"damage"					"15"
-	"damage_flesh"				"18"
+	"damage"					"8"//mod change was 15
+	"damage_flesh"				"12"//mod change was 18
 
-	"deathPush"					"100"
+	"deathPush"					"10000"//mod change was 100
 	"deathPushMin"				"3000 350"
 	"deathPushMax"				"5000 500"
 }
@@ -391,7 +391,7 @@ entityDef damage_machinegun
 entityDef damage_machinegun_flesh
 {
 	"inherit"					"damage_machinegun"
-	"damage"					"18"
+	"damage"					"12"//mod change was 18
 }
 
 //---------------------------------------------------------------
@@ -400,14 +400,14 @@ entityDef damage_machinegun_flesh
 entityDef damage_machinegun_zoom
 {
 	"inherit"					"damage_machinegun"
-	"damage"					"20"
-	"damage_flesh"				"24"
+	"damage"					"12"//mod change was 20
+	"damage_flesh"				"15"//mod change was 24
 }
 
 entityDef damage_machinegun_zoom_flesh
 {
 	"inherit"					"damage_machinegun"
-	"damage"					"24"
+	"damage"					"15"//mod change was 24
 }
 
 //---------------------------------------------------------------

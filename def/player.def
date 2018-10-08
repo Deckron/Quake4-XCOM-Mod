@@ -692,15 +692,15 @@ entityDef player_marine
 	// default weapons
 	// seperate multiple weapons with commas (no spaces).
 	// NOTE: default ammo must be specified explicitly.
-	"weapon"						"weapon_blaster"
-	"current_weapon"					"0"
+	"weapon"						"weapon_blaster"//mod change, was weapon_blaster
+	"current_weapon"					"1"
 
 	"pm_jumpheight"						"48"
 	"pm_stepsize"						"16"
-	"pm_speed"						"250"  	//DOOM speed mod was 140
+	"pm_speed"						"80"  	//DOOM speed mod was 140
 	"pm_walkspeed"						"80"
-	"pm_crouchspeed"					"80"
-	"pm_noclipspeed"					"270"	
+	"pm_crouchspeed"					"90"//mod change was 80
+	"pm_noclipspeed"					"80"//mod change was 270	
 	"pm_minviewpitch"					"-89"	// looking up
 //	"pm_maxviewpitch"					"53"	// looking down
 //	"pm_maxviewpitch"					"73"	// looking down
@@ -721,9 +721,9 @@ entityDef player_marine
 	"respawn_delay"						"1.7"		// minimum delay for respawning after death
 
 	// stats
-	"health"						"1200"            //MOD EDIT, ORIGINAL 100
-	"maxhealth"						"1200"           //MOD EDIT, ORIGINAL 100
-	"armor"							"40"            //MOD EDIT, ORIGINAL 0
+	"health"						"100"            //MOD EDIT, ORIGINAL 100
+	"maxhealth"						"100"           //MOD EDIT, ORIGINAL 100
+	"armor"							"100"            //MOD EDIT, ORIGINAL 0
 	"maxarmor"						"100"
 	"minRestoreHealth0"					"20"		// Minimum health when loading a game for skill level 0
 	"minRestoreHealth1"					"10"		// Minimum health when loading a game for skill level 1
@@ -823,7 +823,7 @@ entityDef player_strogg
 	// stats
 	"health"							"125"
 	"maxhealth"							"125"
-	"armor"								"0"
+	"armor"								"20"//mod change was 20
 	"maxarmor"							"125"
 }
 
