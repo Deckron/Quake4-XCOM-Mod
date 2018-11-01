@@ -1,0 +1,47 @@
+﻿Build started 10/22/2018 1:45:06 PM.
+     1>Project "D:\SteamLibrary\steamapps\common\Quake 4\XCOM MOD\quake4_mods-master\game.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (../Win32/Debug\) contains files shared from another project (idLib.vcxproj, MPGame.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D _DEBUG /D _WINDOWS /D GAME_DLL /D Q4SDK /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu /Fp"../Win32/Debug\Game/Game.pch" /Fo"../Win32/Debug\Game/" /Fd"../Win32/Debug\Gamex86.pdb" /Gd /TP /analyze- /errorReport:prompt game\ai\Monster_ConvoyGround.cpp game\ai\Monster_FailedTransfer.cpp game\ai\Monster_HeavyHoverTank.cpp game\ai\Monster_IronMaiden.cpp game\ai\Monster_RepairBot.cpp game\ai\Monster_Scientist.cpp game\ai\Monster_Sentry.cpp game\ai\Monster_SlimyTransfer.cpp game\ai\Monster_StroggHover.cpp
+         Monster_ConvoyGround.cpp
+     1>d:\steamlibrary\steamapps\common\quake 4\xcom mod\quake4_mods-master\game\ai\monster_convoyground.cpp(2): warning C4627: '#include "../../idlib/precompiled.h"': skipped when looking for precompiled header use
+                 Add directive to 'precompiled header (.h) file' or rebuild precompiled header
+     1>d:\steamlibrary\steamapps\common\quake 4\xcom mod\quake4_mods-master\game\ai\monster_convoyground.cpp(228): error C2660: 'idAI::OnDeath' : function does not take 0 arguments
+         Monster_FailedTransfer.cpp
+     1>d:\steamlibrary\steamapps\common\quake 4\xcom mod\quake4_mods-master\game\ai\monster_failedtransfer.cpp(2): warning C4627: '#include "../../idlib/precompiled.h"': skipped when looking for precompiled header use
+                 Add directive to 'precompiled header (.h) file' or rebuild precompiled header
+     1>d:\steamlibrary\steamapps\common\quake 4\xcom mod\quake4_mods-master\game\ai\monster_failedtransfer.cpp(77): error C2660: 'idAI::OnDeath' : function does not take 0 arguments
+         Monster_HeavyHoverTank.cpp
+     1>d:\steamlibrary\steamapps\common\quake 4\xcom mod\quake4_mods-master\game\ai\monster_heavyhovertank.cpp(2): warning C4627: '#include "../../idlib/precompiled.h"': skipped when looking for precompiled header use
+                 Add directive to 'precompiled header (.h) file' or rebuild precompiled header
+     1>d:\steamlibrary\steamapps\common\quake 4\xcom mod\quake4_mods-master\game\ai\monster_heavyhovertank.cpp(232): error C2660: 'idAI::OnDeath' : function does not take 0 arguments
+         Monster_IronMaiden.cpp
+     1>d:\steamlibrary\steamapps\common\quake 4\xcom mod\quake4_mods-master\game\ai\monster_ironmaiden.cpp(2): warning C4627: '#include "../../idlib/precompiled.h"': skipped when looking for precompiled header use
+                 Add directive to 'precompiled header (.h) file' or rebuild precompiled header
+     1>d:\steamlibrary\steamapps\common\quake 4\xcom mod\quake4_mods-master\game\ai\monster_ironmaiden.cpp(292): error C2660: 'idAI::OnDeath' : function does not take 0 arguments
+         Monster_RepairBot.cpp
+     1>d:\steamlibrary\steamapps\common\quake 4\xcom mod\quake4_mods-master\game\ai\monster_repairbot.cpp(2): warning C4627: '#include "../../idlib/precompiled.h"': skipped when looking for precompiled header use
+                 Add directive to 'precompiled header (.h) file' or rebuild precompiled header
+     1>d:\steamlibrary\steamapps\common\quake 4\xcom mod\quake4_mods-master\game\ai\monster_repairbot.cpp(109): error C2660: 'idAI::OnDeath' : function does not take 0 arguments
+         Monster_Scientist.cpp
+     1>d:\steamlibrary\steamapps\common\quake 4\xcom mod\quake4_mods-master\game\ai\monster_scientist.cpp(2): warning C4627: '#include "../../idlib/precompiled.h"': skipped when looking for precompiled header use
+                 Add directive to 'precompiled header (.h) file' or rebuild precompiled header
+     1>d:\steamlibrary\steamapps\common\quake 4\xcom mod\quake4_mods-master\game\ai\monster_scientist.cpp(54): error C2660: 'idAI::OnDeath' : function does not take 0 arguments
+         Monster_Sentry.cpp
+     1>d:\steamlibrary\steamapps\common\quake 4\xcom mod\quake4_mods-master\game\ai\monster_sentry.cpp(2): warning C4627: '#include "../../idlib/precompiled.h"': skipped when looking for precompiled header use
+                 Add directive to 'precompiled header (.h) file' or rebuild precompiled header
+     1>d:\steamlibrary\steamapps\common\quake 4\xcom mod\quake4_mods-master\game\ai\monster_sentry.cpp(247): error C2660: 'idAI::OnDeath' : function does not take 0 arguments
+         Monster_SlimyTransfer.cpp
+     1>d:\steamlibrary\steamapps\common\quake 4\xcom mod\quake4_mods-master\game\ai\monster_slimytransfer.cpp(2): warning C4627: '#include "../../idlib/precompiled.h"': skipped when looking for precompiled header use
+                 Add directive to 'precompiled header (.h) file' or rebuild precompiled header
+     1>d:\steamlibrary\steamapps\common\quake 4\xcom mod\quake4_mods-master\game\ai\monster_slimytransfer.cpp(115): error C2660: 'idAI::OnDeath' : function does not take 0 arguments
+         Monster_StroggHover.cpp
+     1>d:\steamlibrary\steamapps\common\quake 4\xcom mod\quake4_mods-master\game\ai\monster_strogghover.cpp(2): warning C4627: '#include "../../idlib/precompiled.h"': skipped when looking for precompiled header use
+                 Add directive to 'precompiled header (.h) file' or rebuild precompiled header
+     1>d:\steamlibrary\steamapps\common\quake 4\xcom mod\quake4_mods-master\game\ai\monster_strogghover.cpp(754): error C2660: 'idAI::OnDeath' : function does not take 0 arguments
+         Generating Code...
+     1>Done Building Project "D:\SteamLibrary\steamapps\common\Quake 4\XCOM MOD\quake4_mods-master\game.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.70
